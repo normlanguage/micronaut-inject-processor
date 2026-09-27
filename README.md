@@ -1,3 +1,5 @@
 # Micronaut Inject Java
 
-适配声明位于 `micronaut/inject/processor`，固定 Micronaut Inject Java 5.1.13，发布坐标为 `micronaut.inject:processor:1`。该 Module 提供 Micronaut 官方 JSR 269 处理器。
+[English](README.md) | [简体中文](README.zh-CN.md)
+
+The adapter declaration is in `micronaut/inject/processor`. It pins Micronaut Inject Java 5.1.13 and publishes as `micronaut.inject:processor:1`. This module provides the official Micronaut JSR 269 processor.
