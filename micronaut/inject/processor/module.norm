@@ -1,8 +1,8 @@
 Module module() {
   return module(
     name: "micronaut.inject.processor",
-    version: 12,
-    binding: jarBinding(
+    version: 13,
+    dependencies: [dependency(repository: "github", name: "micronaut.inject", version: 15)],`r`n    binding: jarBinding(
       target: mavenJar(
         group: "io.micronaut",
         artifact: "micronaut-inject-java",
